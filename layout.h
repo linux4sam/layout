@@ -94,6 +94,7 @@ typedef struct lay_item_t {
     lay_id next_sibling;
     lay_vec4 margins;
     lay_vec2 size;
+    void* data;
 } lay_item_t;
 
 typedef struct lay_context {
